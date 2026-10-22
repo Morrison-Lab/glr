@@ -1,6 +1,6 @@
-# hacr CI: dogfood HACtions templates for check, lint, and test coverage.
+# glr CI: dogfood gla templates for check, lint, and test coverage.
 #
-# HACtions templates are included from the HACtions repo via GitLab's
+# gla templates are included from the gla repo via GitLab's
 # cross-project include mechanism.
 
 stages:
@@ -9,7 +9,7 @@ stages:
   - test
 
 include:
-  - project: example-group/HACtions
+  - project: example-group/gla
     ref: main
     file:
       - templates/workflow.yml
