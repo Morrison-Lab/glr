@@ -1,5 +1,5 @@
 # This file is part of the standard testthat infrastructure.
 library(testthat)
-library(hacr)
+library(glr)
 
-test_check("hacr")
+test_check("glr")

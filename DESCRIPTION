@@ -1,8 +1,8 @@
-Package: hacr
-Title: HACtions R Utilities
+Package: glr
+Title: gla R Utilities
 Version: 0.1.0
 Authors@R: person("Douglas Ezra", "Morrison", role = c("aut", "cre"))
-Description: Shared R utility functions for HACtions CI templates. Provides
+Description: Shared R utility functions for gla CI templates. Provides
     helpers for converting lintr output to GitLab Code Quality JSON artifacts.
 License: MIT + file LICENSE
 Encoding: UTF-8

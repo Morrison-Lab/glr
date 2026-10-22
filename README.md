@@ -1,10 +1,10 @@
-# hacr
+# glr
 
 <!-- badges: start -->
 <!-- badges: end -->
 
 **H**ealth **A**nalytics **C**ore **R** utilities — shared helper functions for
-[HACtions](https://gitlab.example.com/example-group/HACtions)
+[gla](https://gitlab.example.com/example-group/gla)
 CI templates.
 
 ## Installation
@@ -12,7 +12,7 @@ CI templates.
 ```r
 # From your GitLab instance (replace the group with your own):
 if (!requireNamespace("pak", quietly = TRUE)) install.packages("pak")
-pak::pkg_install("gitlab::example-group/hacr")
+pak::pkg_install("gitlab::example-group/glr")
 ```
 
 ## What's in the box?
@@ -24,7 +24,7 @@ pak::pkg_install("gitlab::example-group/hacr")
 | `map_severity()` | Map lintr type → GitLab Code Quality severity |
 | `lint_to_codequality()` | Convert a lint object → GitLab Code Quality JSON entry |
 
-These are used by `scripts/lint-codequality.R` in HACtions to produce GitLab
+These are used by `scripts/lint-codequality.R` in gla to produce GitLab
 Code Quality artifacts from lintr output.
 
 ## Development
