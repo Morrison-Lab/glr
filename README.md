@@ -10,7 +10,7 @@ CI templates.
 ## Installation
 
 ```r
-# From the internal GitLab (requires network access):
+# From your GitLab instance (replace the group with your own):
 if (!requireNamespace("pak", quietly = TRUE)) install.packages("pak")
 pak::pkg_install("gitlab::example-group/hacr")
 ```
