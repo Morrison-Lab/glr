@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.R text eol=lf
+*.Rd text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.rds binary

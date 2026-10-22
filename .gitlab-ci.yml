@@ -1,0 +1,18 @@
+# hacr CI: dogfood HACtions templates for check, lint, and test coverage.
+#
+# HACtions templates are included from the HACtions repo via GitLab's
+# cross-project include mechanism.
+
+stages:
+  - build
+  - lint
+  - test
+
+include:
+  - project: example-group/HACtions
+    ref: main
+    file:
+      - templates/workflow.yml
+      - templates/check-package.yml
+      - templates/lint.yml
+      - templates/test-coverage.yml
